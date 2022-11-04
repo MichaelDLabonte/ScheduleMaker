@@ -1,5 +1,6 @@
 public class Course {
 	private final int CRN;
+	private String competency = 'N';
 	private final String courseSubject;
 	//private final String courseNumber;
 	private final String course;
@@ -26,6 +27,14 @@ public class Course {
 	
 	public int getCRN() {
 		return CRN;
+	}
+	
+	public String getCompetency() {
+		return competency;
+	}
+	
+	public String setCompetency(String comp) {
+		competency = comp;
 	}
 	
 	public String getCourseSubject() {
